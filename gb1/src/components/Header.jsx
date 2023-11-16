@@ -1,9 +1,8 @@
 import React from "react";
 import logo from "../assets/logo.png";
-
 export default function Header() {
   return (
-    <div className="bg-black flex flex-row justify-evenly h-full py- items-center overflow-hidden py-8">
+    <div className="bg-black flex flex-row justify-evenly h-full items-center overflow-hidden py-8  border-yellow-500 border-b-2">
       <div className="">
         <img src={logo} className="w-200 h-150" />
       </div>
