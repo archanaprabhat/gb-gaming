@@ -9,19 +9,29 @@ export default function Header() {
       <nav className="text-white">
         <ul className="flex  space-x-4">
           <li>
-            <a href="#">Home</a>
+            <a href="#" className="hover:scale-150 hover:text-yellow-500">
+              Home
+            </a>
           </li>
           <li>
-            <a href="#">Games</a>
+            <a href="#" className="hover:scale-150 hover:text-yellow-500">
+              Games
+            </a>
           </li>
           <li>
-            <a href="#">Blog</a>
+            <a href="#" className="hover:scale-150 hover:text-yellow-500">
+              Blog
+            </a>
           </li>
           <li>
-            <a href="#">Forums</a>
+            <a href="#" className="hover:scale-150 hover:text-yellow-500">
+              Forums
+            </a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#" className="hover:scale-150 hover:text-yellow-500">
+              Contact
+            </a>
           </li>
         </ul>
       </nav>
