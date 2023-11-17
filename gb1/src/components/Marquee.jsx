@@ -7,7 +7,7 @@ export default function Marquee() {
         behavior="scroll"
         direction="left"
         scrollamount="6"
-        className="text-white flex  items-center"
+        className="text-white flex  items-center "
       >
         Isum dolor sit amet, consectetur adipiscing elit. Isum dolor sit amet,
         consectetur adipiscing elit. Isum dolor sit amet, consectetur adipiscing
@@ -15,9 +15,9 @@ export default function Marquee() {
       </marquee>
       <div
         className="bg-yellow-500 self-stretch absolute left-0 h-full w-1/3 flex
-      items-center justify-center font-bold"
+      items-center justify-end font-bold text-center pr-28"
       >
-        Learn More
+        Latest News
       </div>
     </div>
   );
