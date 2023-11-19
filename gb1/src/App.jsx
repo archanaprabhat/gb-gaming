@@ -5,14 +5,14 @@ import Header from "./components/Header";
 import Marquee from "./components/Marquee";
 import Hero from "./components/Hero";
 import backgroundImage from "./assets/1.jpg";
-import Cards from "./components/Cards";
+import Combined from "./components/Combined";
 function App() {
   return (
     <>
       <Header />
       <Marquee />
       <Hero backgroundImage={backgroundImage} />
-      <Cards />
+      <Combined />
     </>
   );
 }
