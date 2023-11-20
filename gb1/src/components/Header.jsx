@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <div className="bg-black flex flex-row justify-evenly h-full items-center overflow-hidden py-8  border-yellow-500 border-b-2">
@@ -9,27 +10,28 @@ export default function Header() {
       <nav className="text-white">
         <ul className="flex  space-x-4">
           <li>
-            <a href="#" className="hover:scale-150 hover:text-yellow-500">
+            <a href="" className="hover:scale-150 hover:text-yellow-500">
               Home
             </a>
           </li>
+
           <li>
-            <a href="#" className="hover:scale-150 hover:text-yellow-500">
+            <a href="" className="hover:scale-150 hover:text-yellow-500">
               Games
             </a>
           </li>
           <li>
-            <a href="#" className="hover:scale-150 hover:text-yellow-500">
+            <a href="" className="hover:scale-150 hover:text-yellow-500">
               Blog
             </a>
           </li>
           <li>
-            <a href="#" className="hover:scale-150 hover:text-yellow-500">
+            <a href="" className="hover:scale-150 hover:text-yellow-500">
               Forums
             </a>
           </li>
           <li>
-            <a href="#" className="hover:scale-150 hover:text-yellow-500">
+            <a href="" className="hover:scale-150 hover:text-yellow-500">
               Contact
             </a>
           </li>

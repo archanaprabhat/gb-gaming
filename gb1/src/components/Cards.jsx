@@ -13,7 +13,7 @@ import recent8 from "../assets/recent-game/8.jpg";
 export default function Cards() {
   return (
     <div className="grid lg:grid-cols-2 lg:gap-5 justify-items-center">
-      <div className="py-28">
+      <div className="pt-28">
         <div className="rounded overflow-hidden shadow-lg max-w-sm">
           <div className="overflow-hidden">
             <img
@@ -58,7 +58,7 @@ export default function Cards() {
         </div>
       </div>
 
-      <div className="py-28">
+      <div className="pt-28">
         <div className="rounded overflow-hidden shadow-lg max-w-sm">
           <div className="overflow-hidden">
             <img
@@ -103,7 +103,7 @@ export default function Cards() {
         </div>
       </div>
 
-      <div className="py-28">
+      <div className="pt-10">
         <div className="rounded overflow-hidden shadow-lg max-w-sm">
           <div className="overflow-hidden">
             <img
@@ -148,7 +148,7 @@ export default function Cards() {
         </div>
       </div>
 
-      <div className="py-28">
+      <div className="pt-10">
         <div className="rounded overflow-hidden shadow-lg max-w-sm">
           <div className="overflow-hidden">
             <img
@@ -192,7 +192,7 @@ export default function Cards() {
           </div>
         </div>
       </div>
-      <div className="py-28">
+      <div className="pt-10">
         <div className="rounded overflow-hidden shadow-lg max-w-sm">
           <div className="overflow-hidden">
             <img
@@ -237,7 +237,7 @@ export default function Cards() {
         </div>
       </div>
 
-      <div className="py-28">
+      <div className="pt-10">
         <div className="rounded overflow-hidden shadow-lg max-w-sm">
           <div className="overflow-hidden">
             <img
@@ -281,7 +281,7 @@ export default function Cards() {
           </div>
         </div>
       </div>
-      <div className="py-28">
+      <div className="pt-10">
         <div className="rounded overflow-hidden shadow-lg max-w-sm">
           <div className="overflow-hidden">
             <img
@@ -326,7 +326,7 @@ export default function Cards() {
         </div>
       </div>
 
-      <div className="py-28">
+      <div className="pt-10">
         <div className="rounded overflow-hidden shadow-lg max-w-sm">
           <div className="overflow-hidden">
             <img

@@ -5,10 +5,10 @@ import Aside from "./Aside";
 function Combined() {
   return (
     <div className="flex">
-      <div className="w-3/4">
+      <div className="w-8/12">
         <Cards />
       </div>
-      <div className="w-1/4">
+      <div className="w-4/12">
         <Aside />
       </div>
     </div>
